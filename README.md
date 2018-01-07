@@ -2,15 +2,15 @@
 
 This project simulates an automatic sudoku solver using paradigms of constraint satisfaction, where the game is imported as txt files in the following format:
 
-*15*2***9
-*4****7**
-*27**8***
-95***32**
-7*******6
-**62***15
-***6**92*
-**4****8*
-2***3*65*
+*15*2***9 (line ends)
+*4****7** (line ends)
+*27**8*** (line ends)
+95***32** (line ends)
+7*******6 (line ends)
+**62***15 (line ends)
+***6**92* (line ends)
+**4****8* (line ends)
+2***3*65* (line ends)
 
 Each row represents a row in the sudoku game, and digits(1-9) indicate pre-filled values of the puzzle, and * indicates empty space.
 
